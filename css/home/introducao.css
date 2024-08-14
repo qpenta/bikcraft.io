@@ -1,7 +1,7 @@
 .introducao-bg {
-  background-color: #000000;
+  background-color: var(--cor-12);
   color: #ffffff;
-  box-shadow: inset 0 -120px #ffffff;
+  box-shadow: inset 0 -120px var(--cor-0);
 }
 
 .introducao {
@@ -38,13 +38,13 @@
   margin-bottom: 20px;
   font-size: 24px;
   line-height: 1.5;
-  color: #b2b2b2;
+  color: var(--cor-5);
   font-family: "Roboto";
   font-weight: 400;
 }
 
 .introducao h1 span {
-  color: #ffbb00;
+  color: var(--cor-p1);
 }
 
 @media (max-width: 1200px) {
@@ -58,7 +58,7 @@
 
 @media (max-width: 800px) {
   .introducao-bg {
-    background-color: #111111;
+    background-color: var(--cor-11);
     padding-top: 40px;
     box-shadow: inset 0 -60px #ffffff;
   }
