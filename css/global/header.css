@@ -4,13 +4,12 @@
 
 .header {
   display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
   justify-content: space-between;
   align-items: center;
-  box-sizing: border-box;
-  padding: 20px;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .header-menu {
@@ -20,7 +19,6 @@
 }
 
 .header-menu a {
-  color: #ffffff;
   padding: 16px 0px;
   display: inline-block;
   position: relative;
@@ -31,7 +29,7 @@
   display: block;
   height: 2px;
   width: 0px;
-  background-color: var(--cor-0);
+  background: var(--cor-0);
   margin-top: 4px;
   transition: 0.3s;
   position: absolute;
