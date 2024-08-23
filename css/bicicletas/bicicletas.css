@@ -1,4 +1,4 @@
-c {
+.bicicletas-bg:nth-child(odd) {
   background: linear-gradient(to right, var(--cor-0) 30%, var(--cor-11) 0%);
 }
 
