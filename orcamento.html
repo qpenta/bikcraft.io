@@ -7,6 +7,7 @@
   <meta name="description" content="Bicicletas elétricas  de alta precisão e qualidade,
   feitas sob medida para o cliente. Explore o 
   mundo na sua velocidade com a Bikcraft.">
+  <link rel="preload" href="./css/style.css" as="style">
   <link rel="stylesheet" href="./css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -49,15 +50,60 @@
 <input type="radio" name="tipo" value="bikcraft" id="bikcraft">
 <label for="bikcraft">Bikcraft</label>
 
+
 <input type="radio" name="tipo" value="seguro" id="seguro">
 <label for="seguro">Seguro</label>
 
 <div class="orcamento-conteudo" id="orcamento-bikcraft">
 <h2 class="font-1-xs cor-5">Escolha a sua</h2>
+
+<input type="radio" name="produto" value="nimbus" id="nimbus">
+<label for="nimbus">Nimbus Stark<span>R$ 4999</span></label>
+<div class="orcamento-detalhes">
+  <ul class="font-1-xs cor-8">
+    <li><img src="./img/icones/eletrica.svg" alt="">Motor Elétrico</li>
+    <li><img src="./img/icones/carbono.svg" alt="">Fibra de Carbono</li>
+    <li><img src="./img/icones/velocidade.svg" alt="">50 km/h</li>
+    <li><img src="./img/icones/rastreador.svg" alt="">Rastreador</li>
+  </ul>
+  <img src="./img/bicicletas/nimbus.jpg" alt="">
+</div>
+
+
+<input type="radio" name="produto" value="magic" id="magic">
+<label for="magic">Magic Might<span>R$ 2499</span></label>
+<div class="orcamento-detalhes">
+  <ul class="font-1-xs cor-8">
+    <li><img src="./img/icones/eletrica.svg" alt="">Motor Elétrico</li>
+    <li><img src="./img/icones/carbono.svg" alt="">Fibra de Carbono</li>
+    <li><img src="./img/icones/velocidade.svg" alt="">45 km/h</li>
+    <li><img src="./img/icones/rastreador.svg" alt="">Rastreador</li>
+  </ul>
+  <img src="./img/bicicletas/magic.jpg" alt="Bicicleta Preta">
+</div>
+
+<input type="radio" name="produto" value="niNebulabus" id="Nebula">
+<label for="Nebula">Nebula Cosmic<span>R$ 3999</span></label>
+<div class="orcamento-detalhes">
+  <ul class="font-1-xs cor-8">
+    <li><img src="./img/icones/eletrica.svg" alt="">Motor Elétrico</li>
+    <li><img src="./img/icones/carbono.svg" alt="">Fibra de Carbono</li>
+    <li><img src="./img/icones/velocidade.svg" alt="">40 km/h</li>
+    <li><img src="./img/icones/rastreador.svg" alt="">Rastreador</li>
+  </ul>
+  <img src="./img/bicicletas/nebula.jpg" alt="Bicicleta Branca">
+</div>
+
 </div>
 
 <div class="orcamento-conteudo" id="orcamento-seguro">
   <h2 class="font-1-xs cor-5">Escolha o plano</h2>
+
+  <input type="radio" name="produto" value="prata" id="prata">
+<label for="prata">Prata<span>R$ 199</span></label>
+
+<input type="radio" name="produto" value="ouro" id="ouro">
+<label for="ouro">Ouro<span>R$ 99</span></label>
   </div>
 
 </div>
@@ -83,6 +129,13 @@
     <input type="email" id="email" name="email">
   </div>
 
+  <h2 class="font-1-xs cor-9 col-2">entrega</h2>
+
+  <div>
+    <label for="cep">CEP</label>
+    <input type="text" id="cep" name="cep">
+  </div>
+
   <div>
     <label for="numero">Número</label>
     <input type="text" id="numero" name="numero">
@@ -91,6 +144,11 @@
   <div>
     <label for="logradouro">Logradouro</label>
     <input type="text" id="logradouro" name="logradouro">
+  </div>
+
+  <div>
+    <label for="bairro">Bairro</label>
+    <input type="text" id="bairro" name="bairro">
   </div>
 
   <div>
@@ -104,8 +162,6 @@
   </div>
 
   <button class="botao col-2">Solicitar Orçamento</button>
-
-  <h2 class="font-1-xs cor-9 col-2">entrega</h2>
 
 </div>
 
